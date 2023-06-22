@@ -37,3 +37,5 @@ for auth in authList:
         print "could not update %s" % (auth["alias"])
         print "********"
         print sys.exc_info()[0]
+
+AdminConfig.save()
